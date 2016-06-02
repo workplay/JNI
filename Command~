@@ -1,0 +1,4 @@
+gcc -shared HelloWorld.c -fPIC -I /usr/lib/jvm/java-1.7.0-openjdk-amd64/include -I /usr/lib/jvm/java-1.7.0-openjdk-amd64/include/linux -o libHelloWorld.so  
+
+LD_LIBRARY_PATH=.  
+export LD_LIBRARY_PATH  
